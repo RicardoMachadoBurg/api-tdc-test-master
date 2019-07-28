@@ -1,0 +1,17 @@
+{
+  "id" : "f238845e-369c-4a34-aa69-04d9240d7fb5",
+  "name" : "evento_modalidade_palestra",
+  "request" : {
+    "urlPattern" : "/v1/publico/evento/110/modalidade/2685/palestra/10083",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "evento_modalidade_palestra_data.json",
+    "headers" : {
+      "Authorization": "Bearer f8d849b99c712b4cbdd2e0f3"
+    }
+  },
+  "persistent" : true,
+  "insertionIndex" : 1
+}

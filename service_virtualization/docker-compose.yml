@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  wiremock:
+    build: .
+    image: mock-api-tdc
+    container_name: mock-api-tdc
+    ports: 
+      - "8081:8080"
+    volumes:
+    - ./__files:/wiremock/__files
+    - ./mappings:/wiremock/mappings
